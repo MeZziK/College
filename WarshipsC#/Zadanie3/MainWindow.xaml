@@ -1,0 +1,14 @@
+﻿<Window x:Class="Zadanie3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Button Content="Start" FontSize="50" Margin="100,100" Width="500" Height="100" Click="Button_Click_1" />
+        <Button Content="Zakończ" FontSize="30" Margin="550,350,0,0" Width="200" Height="50" Click="Button_Click" />
+        
+    </Grid>
+</Window>
